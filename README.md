@@ -1,7 +1,10 @@
 Next.js RSC RCE Scanner (Burp Suite Extension)
 ==============================================
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white) ![Security](https://img.shields.io/badge/Cybersecurity-Bug_Bounty-red?style=for-the-badge)
+
 A high-fidelity Burp Suite extension to detect the **Next.js / React Server Components (RSC) Remote Code Execution** vulnerability (**CVE-2025-55182** & **CVE-2025-66478**).
+
 
 This extension implements the detection logic discovered by the [Searchlight Cyber Security Research Team](https://slcyber.io/research-center/high-fidelity-detection-mechanism-for-rsc-next-js-rce-cve-2025-55182-cve-2025-66478). It sends a specific malformed multipart request to trigger a property access crash on an `undefined` object within the RSC stream.
 
