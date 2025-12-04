@@ -14,7 +14,7 @@ Vulnerability Details
 
 -   **Affected Software:** Next.js (Default App Router configurations)
 
--   **Root Cause:** Improper handling of colon-delimited property access in `react-server-dom-webpack` leads to a server crash (and potential RCE) when processing malicious multipart streams.
+-   **Root Cause:** Improper handling of colon-delimited property access in `react-server-dom-parcel`, `react-server-dom-turbopack`, and `react-server-dom-webpack` leads to a server crash (and potential RCE) when processing malicious multipart streams.
 
 Features
 --------
