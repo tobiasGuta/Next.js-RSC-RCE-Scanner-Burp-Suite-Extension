@@ -83,6 +83,10 @@ To build this project, you need **Java JDK 21+**.
 
 3.  Locate the JAR: The compiled extension will be located in: `build/libs/NextJsRceScanner-1.0-SNAPSHOT.jar`
 
+## POC
+
+https://github.com/user-attachments/assets/55ef4a5b-207f-4098-bc55-2629f9715402
+
 References
 ----------
 
