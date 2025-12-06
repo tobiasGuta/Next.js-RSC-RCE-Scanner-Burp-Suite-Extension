@@ -27,7 +27,7 @@ public class NextJsRceScanner implements BurpExtension, ScanCheck {
         this.api = api;
         api.extension().setName("Next.js RSC RCE Scanner (CVE-2025-55182)");
         api.scanner().registerScanCheck(this);
-        api.logging().logToOutput("Next.js RSC Scanner loaded (v2.0 - Rich Reporting)");
+        api.logging().logToOutput("Next.js RSC Scanner loaded (v2.0)");
     }
 
     @Override
