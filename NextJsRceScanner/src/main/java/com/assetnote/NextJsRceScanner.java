@@ -130,7 +130,7 @@ public class NextJsRceScanner implements BurpExtension, ScanCheck {
         // 7. Check for Vulnerability
         if (response.statusCode() == 500 && response.bodyToString().contains("E{\"digest\"")) {
 
-            api.logging().logToOutput("[!] VULNERABILITY CONFIRMED! Creating rich report...");
+            api.logging().logToOutput("[!] VULNERABILITY CONFIRMED! Creating report...");
 
             AuditIssue issue = createIssue(baseRequest, checkRequestResponse);
 
