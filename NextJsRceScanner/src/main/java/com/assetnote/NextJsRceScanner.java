@@ -47,9 +47,7 @@ public class NextJsRceScanner implements BurpExtension, ScanCheck {
                 ConsolidationAction.KEEP_BOTH;
     }
 
-    /**
-     * Helper method to generate the rich HTML report for the Dashboard.
-     */
+    
     private AuditIssue createIssue(HttpRequest baseRequest, HttpRequestResponse evidence) {
         // 1. Construct the Issue Detail (The "What happened")
         String issueDetail = new StringBuilder()
